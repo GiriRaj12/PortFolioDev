@@ -10,7 +10,7 @@ import Experience from './components/Experience/Experience';
 
 function App() {
 
-  const [choise, setChoise] = useState('Projects');
+  const [choise, setChoise] = useState('Experience');
 
   return (
     <div className="App">

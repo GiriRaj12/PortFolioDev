@@ -1,9 +1,10 @@
-<svg width="1407" height="1408" viewBox="0 0 1407 1408" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<circle cx="703.5" cy="703.5" r="703.5" fill="#FEB783"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M1407 704.5C1407 1093.03 1092.03 1408 703.5 1408C314.968 1408 0 1093.03 0 704.5C0 315.968 314.968 1 703.5 1C1092.03 1 1407 315.968 1407 704.5Z" fill="url(#pattern0)"/>
-<circle cx="1147" cy="625" r="79" fill="#EE7116"/>
-<circle cx="1023.5" cy="493.5" r="55.5" fill="#EE7116"/>
-<circle cx="1147" cy="397" r="41" fill="#EE7116"/>
+<svg width="1407" height="1494" viewBox="0 0 1407 1494" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="703.5" cy="789.5" r="703.5" fill="#F89A43"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1407 790.5C1407 1179.03 1092.03 1494 703.5 1494C314.968 1494 0 1179.03 0 790.5C0 401.968 314.968 87 703.5 87C1092.03 87 1407 401.968 1407 790.5Z" fill="url(#pattern0)"/>
+<circle cx="1233.28" cy="419.275" r="117.275" fill="#F26C0B"/>
+<circle cx="1076.39" cy="219.39" r="82.3895" fill="#F26C0B"/>
+<circle cx="1289.86" cy="181.864" r="60.8643" fill="#F26C0B"/>
+<circle cx="1159" cy="43" r="43" fill="#F26C0B"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(0 -0.000423729) scale(0.000423729)"/>
