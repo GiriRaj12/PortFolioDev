@@ -9,8 +9,7 @@ import Contact from './components/Contact/Contact';
 import Experience from './components/Experience/Experience';
 
 function App() {
-
-  const [choise, setChoise] = useState('Experience');
+  const [choise, setChoise] = useState('About');
 
   return (
     <div className="App">
@@ -19,15 +18,15 @@ function App() {
         pad="medium"
       >
         <Anchor onClick={() => setChoise("About")}>
-          <img className="porfolio-image" src={giri_photo}></img>
+          <img className="porfolio-image" src={giri_photo} alt="Giri Raj"></img>
         </Anchor>
         <Box direction="column" style={{ padding: "2%" }}>
           <Heading margin="none" className="porfolio-name">Giri Raj</Heading>
           <div className="ink-mark"></div>
           <Box gridArea="sub" direction="row" pad="medium">
-            <Anchor icon={<Linkedin />} href="https://www.linkedin.com/in/giriraj-12/"></Anchor>
-            <Anchor icon={<Facebook />} href="https://www.facebook.com/giri.mass2/"></Anchor>
-            <Anchor icon={<Github />} href="https://github.com/GiriRaj12?tab=repositories"></Anchor>
+            <Anchor icon={<Linkedin />}  target="_blank" href="https://www.linkedin.com/in/giriraj-12/"></Anchor>
+            <Anchor icon={<Facebook />} target="_blank" href="https://www.facebook.com/giri.mass2/"></Anchor>
+            <Anchor icon={<Github />} target="_blank" href="https://github.com/GiriRaj12?tab=repositories"></Anchor>
           </Box>
           <Box direction="row">
             <Anchor className="portfolio-tabs" onClick={() => setChoise("About")}>About</Anchor>
@@ -61,6 +60,7 @@ function displayByChoise(choise) {
     case 'Projects': return <Projects></Projects>
     case 'Experience': return <Experience></Experience>
     case 'Contact': return <Contact></Contact>
+    default : return <div>Nothing ! </div>
   }
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import { Text, Paragraph, Heading} from 'grommet';
+import { Paragraph, Heading} from 'grommet';
 
 function About() {
     return (

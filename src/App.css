@@ -1,4 +1,38 @@
 
+
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik'), url(./assets/fonts/Rubik-Black.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Rubik-Bold';
+    font-weight: 900;
+    src: local('Rubik'), url(./assets/fonts/Rubik-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Rubik-Light';
+    font-weight: 300;
+    src: local('Rubik'), url(./assets/fonts/Rubik-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: 'VarelaRound';
+    src: local('VarelaRound'), url(./assets/fonts/VarelaRound-Regular.ttf);
+  }
+  
+  @font-face{
+    font-family: 'WorkSans';
+    src: local('WorkSans'), url(./assets/fonts/WorkSans-Light.ttf);
+  }
+  
+  @font-face{
+    font-family: 'Roboto';
+    src: local('Roboto'), url(./assets/fonts/RobotoSlab-VariableFont_wght.ttf);
+  }
+
+  
 .App{
     padding-left: 10%;
     padding-top: 5%;

@@ -1,4 +1,4 @@
-import { Card, Box, CardHeader, Text, CardFooter, Button, CardBody, Anchor, Paragraph } from 'grommet';
+import { Card, Box, CardHeader, Text, CardFooter, CardBody, Anchor } from 'grommet';
 import { Github, Link} from 'grommet-icons';
 import React from 'react';
 import './Projects.css'
