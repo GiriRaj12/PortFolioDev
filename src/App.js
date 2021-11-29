@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Experience from './components/Experience/Experience';
+import Inspiration from './components/Inspiration/Inspiration'
 
 function App() {
   const [choise, setChoise] = useState('About');
@@ -33,6 +34,7 @@ function App() {
             <Anchor className="portfolio-tabs" onClick={() => setChoise("Projects")}>Projects</Anchor>
             <Anchor className="portfolio-tabs" onClick={() => setChoise("Experience")}>Experience</Anchor>
             <Anchor className="portfolio-tabs" onClick={() => setChoise("Contact")}>Contact</Anchor>
+            <Anchor className="portfolio-tabs" onClick={() => setChoise("Inspiration")}>Inspiration</Anchor>
           </Box>
         </Box>
       </Box>
@@ -60,6 +62,7 @@ function displayByChoise(choise) {
     case 'Projects': return <Projects></Projects>
     case 'Experience': return <Experience></Experience>
     case 'Contact': return <Contact></Contact>
+    case 'Inspiration': return <Inspiration></Inspiration>
     default : return <div>Nothing ! </div>
   }
 }
